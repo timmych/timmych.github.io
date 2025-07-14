@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OneTapRide - Simple Instructions</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            margin-bottom: 10px;
+            font-size: 2.5em;
+        }
+        .subtitle {
+            text-align: center;
+            color: #7f8c8d;
+            font-size: 1.2em;
+            margin-bottom: 40px;
+        }
+        h2 {
+            color: #34495e;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 10px;
+            margin-top: 40px;
+        }
+        h3 {
+            color: #2980b9;
+            margin-top: 30px;
+        }
+        .step {
+            background: #ecf0f1;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            border-left: 4px solid #3498db;
+        }
+        .step-number {
+            background: #3498db;
+            color: white;
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            margin-right: 15px;
+        }
+        .warning {
+            background: #fff3cd;
+            border: 1px solid #ffeaa7;
+            color: #856404;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        .tip {
+            background: #d1ecf1;
+            border: 1px solid #bee5eb;
+            color: #0c5460;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        .user-type {
+            display: inline-block;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .senior {
+            background: #e8f5e8;
+            color: #2d5a2d;
+        }
+        .caregiver {
+            background: #e3f2fd;
+            color: #1565c0;
+        }
+        ul li {
+            margin: 8px 0;
+        }
+        .screenshot-placeholder {
+            background: #f0f0f0;
+            border: 2px dashed #ccc;
+            padding: 40px;
+            text-align: center;
+            color: #999;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚗 OneTapRide</h1>
+        <p class="subtitle">Simple ride-sharing for seniors and their families</p>
+        
+        <p><strong>OneTapRide</strong> makes it easy for seniors to request rides from Uber and Lyft without the complexity of using multiple apps. Caregivers set up common routes, and seniors can request rides with just a few taps.</p>
+
+        <h2>👥 Who Uses OneTapRide?</h2>
+        <ul>
+            <li><strong>Seniors:</strong> Use the simple interface to request rides to pre-configured destinations</li>
+            <li><strong>Caregivers/Family:</strong> Set up and manage places and routes for their loved ones</li>
+        </ul>
+
+        <h2>🛠️ Initial Setup (For Caregivers)</h2>
+        
+        <div class="user-type caregiver">For Caregivers</div>
+        
+        <div class="step">
+            <span class="step-number">1</span>
+            <strong>Open Settings:</strong> Tap the "Settings" tab at the bottom of the app
+        </div>
+
+        <div class="step">
+            <span class="step-number">2</span>
+            <strong>Remove Example Places:</strong> The app comes with example places. Swipe left on each example to delete it
+        </div>
+
+        <div class="step">
+            <span class="step-number">3</span>
+            <strong>Add Real Places:</strong> Tap "Add Place" and choose how to add:
+            <ul>
+                <li><strong>Type Address:</strong> Enter the address manually</li>
+                <li><strong>Search:</strong> Search for businesses or landmarks</li>
+                <li><strong>Current Location:</strong> Use your current location</li>
+            </ul>
+        </div>
+
+        <div class="step">
+            <span class="step-number">4</span>
+            <strong>Validate Addresses:</strong> Always tap "Validate Address" to ensure the location is accurate
+        </div>
+
+        <div class="step">
+            <span class="step-number">5</span>
+            <strong>Create Routes:</strong> Go to "Manage Routes" → "Add Route"
+            <ul>
+                <li>Select a starting place (From)</li>
+                <li>Select a destination (To)</li>
+                <li>Optionally give the route a custom name</li>
+                <li>Optionally choose a color to help identify the route</li>
+            </ul>
+        </div>
+
+        <div class="tip">
+            <strong>💡 Tip:</strong> Common routes might include: Home → Doctor's Office, Home → Grocery Store, Senior Center → Home
+        </div>
+
+        <h2>📱 Daily Use (For Seniors)</h2>
+        
+        <div class="user-type senior">For Seniors</div>
+
+        <div class="step">
+            <span class="step-number">1</span>
+            <strong>Open OneTapRide:</strong> Tap the OneTapRide app icon on your phone
+        </div>
+
+        <div class="step">
+            <span class="step-number">2</span>
+            <strong>Choose Where to Go:</strong> You'll see large buttons for each route. Tap the button for where you want to go
+        </div>
+
+        <div class="step">
+            <span class="step-number">3</span>
+            <strong>Pick Your Ride Service:</strong> Choose either "Call Uber" (black button) or "Call Lyft" (pink button)
+        </div>
+
+        <div class="step">
+            <span class="step-number">4</span>
+            <strong>Complete Your Ride:</strong> The Uber or Lyft app will open with your trip already filled in. Follow the prompts in that app to complete your ride request
+        </div>
+
+        <h2>🔧 Managing Your Routes (For Caregivers)</h2>
+        
+        <div class="user-type caregiver">For Caregivers</div>
+
+        <h3>Adding New Places</h3>
+        <ul>
+            <li>Go to Settings → "Manage Places"</li>
+            <li>Tap "Add Place"</li>
+            <li>Enter the place name and address</li>
+            <li>Always validate the address to ensure accuracy</li>
+        </ul>
+
+        <h3>Creating Routes</h3>
+        <ul>
+            <li>Go to Settings → "Manage Routes"</li>
+            <li>Tap "Add Route"</li>
+            <li>Select starting point and destination</li>
+            <li>Give it a memorable name (optional)</li>
+            <li>Choose a color for easy identification (optional)</li>
+        </ul>
+
+        <h3>Organizing Routes</h3>
+        <ul>
+            <li><strong>Reorder:</strong> Use the drag handles (≡) to rearrange routes</li>
+            <li><strong>Turn On/Off:</strong> Use the toggle switch to temporarily disable routes</li>
+            <li><strong>Delete:</strong> Swipe left on any route to delete it</li>
+        </ul>
+
+        <h2>📋 Requirements</h2>
+        <ul>
+            <li><strong>iPhone:</strong> OneTapRide works on iPhones running iOS 14 or later</li>
+            <li><strong>Ride Apps:</strong> For best experience, install the Uber and/or Lyft apps</li>
+            <li><strong>Location:</strong> Allow OneTapRide to access your location for better accuracy</li>
+        </ul>
+
+        <div class="warning">
+            <strong>⚠️ Important:</strong> If you don't have Uber or Lyft apps installed, OneTapRide will open their websites instead. For the smoothest experience, we recommend installing at least one of these apps.
+        </div>
+
+        <h2>❓ Troubleshooting</h2>
+        
+        <h3>No Routes Showing</h3>
+        <ul>
+            <li>Make sure routes are created in Settings → Manage Routes</li>
+            <li>Check that routes are turned "On" (green toggle switch)</li>
+            <li>Ensure both places in the route still exist</li>
+        </ul>
+
+        <h3>Address Not Found</h3>
+        <ul>
+            <li>Try using the search feature instead of typing addresses</li>
+            <li>Always use the "Validate Address" button</li>
+            <li>Check for typos in street names or numbers</li>
+        </ul>
+
+        <h3>Ride App Doesn't Open</h3>
+        <ul>
+            <li>Make sure Uber or Lyft apps are installed</li>
+            <li>Update the ride apps if they're outdated</li>
+            <li>If apps aren't installed, a web page will open instead</li>
+        </ul>
+
+        <div class="tip">
+            <strong>💡 Need Help?</strong> If you're having trouble, ask your caregiver to check the Settings and make sure everything is set up correctly. The app is designed to be simple for daily use but may need occasional management.
+        </div>
+
+        <h2>🔒 Privacy & Safety</h2>
+        <ul>
+            <li>OneTapRide stores your places and routes locally on your device</li>
+            <li>No personal information is shared with third parties</li>
+            <li>Location data is only used to improve address accuracy</li>
+            <li>Always verify your destination before confirming rides in Uber/Lyft</li>
+        </ul>
+
+        <p style="text-align: center; margin-top: 40px; color: #7f8c8d;">
+            <em>OneTapRide - Making transportation accessible for everyone</em>
+        </p>
+    </div>
+</body>
+</html>
